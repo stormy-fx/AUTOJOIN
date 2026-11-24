@@ -3201,13 +3201,25 @@ async def account_loop_guest(uid, password, region_override=None, clan_override=
             await asyncio.sleep(10)
 
 async def _autoload_accounts():
-    if not os.path.exists(ACCOUNTS_FILE):
-        return
-    try:
-        with open(ACCOUNTS_FILE, "r", encoding="utf-8") as f:
-            accounts = json.load(f) or []
-    except Exception:
-        return
+    accounts = None
+    # Priority 1: Read from ACCOUNTS_JSON env var (for Render / cloud deploy)
+    env_accounts = os.environ.get("ACCOUNTS_JSON", "").strip()
+    if env_accounts:
+        try:
+            accounts = json.loads(env_accounts)
+            print_info("Loaded accounts from ACCOUNTS_JSON environment variable")
+        except Exception as e:
+            print_error(f"Failed to parse ACCOUNTS_JSON env var: {e}")
+            accounts = None
+    # Priority 2: Read from accounts.json file
+    if accounts is None:
+        if not os.path.exists(ACCOUNTS_FILE):
+            return
+        try:
+            with open(ACCOUNTS_FILE, "r", encoding="utf-8") as f:
+                accounts = json.load(f) or []
+        except Exception:
+            return
     if not isinstance(accounts, list) or not accounts:
         return
     bot_state.expected_workers = sum(
