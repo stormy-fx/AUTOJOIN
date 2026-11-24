@@ -1,0 +1,545 @@
+{
+  "source_file": "droid_21_Nov_22_30_41.csv",
+  "capture_scope": "Rows where App == Free Fire",
+  "package_name": [
+    "com.dts.freefireth"
+  ],
+  "capture_window": {
+    "first_seen": "2026-11-21T22:30:44.241+06:00",
+    "last_seen": "2026-11-21T22:32:20.211+06:00"
+  },
+  "record_count": 83,
+  "note": "Observed network metadata only. This file does not contain decrypted HTTPS payloads, authentication tokens, game packet schemas, or proof that observed endpoints are required/current.",
+  "endpoints": [
+    {
+      "domain": null,
+      "protocol": "TCP",
+      "destination_port": 8006,
+      "records": 2,
+      "destination_ips": [
+        "148.222.66.248"
+      ],
+      "bytes_sent_total": 4137,
+      "bytes_received_total": 1805
+    },
+    {
+      "domain": null,
+      "protocol": "TCP",
+      "destination_port": 9006,
+      "records": 1,
+      "destination_ips": [
+        "148.222.67.75"
+      ],
+      "bytes_sent_total": 9336,
+      "bytes_received_total": 7005
+    },
+    {
+      "domain": null,
+      "protocol": "TCP",
+      "destination_port": 39699,
+      "records": 1,
+      "destination_ips": [
+        "202.81.106.11"
+      ],
+      "bytes_sent_total": 17150,
+      "bytes_received_total": 75858
+    },
+    {
+      "domain": null,
+      "protocol": "TCP",
+      "destination_port": 39801,
+      "records": 1,
+      "destination_ips": [
+        "202.81.106.97"
+      ],
+      "bytes_sent_total": 2894,
+      "bytes_received_total": 8579
+    },
+    {
+      "domain": null,
+      "protocol": "UDP",
+      "destination_port": 8008,
+      "records": 1,
+      "destination_ips": [
+        "148.222.66.248"
+      ],
+      "bytes_sent_total": 308,
+      "bytes_received_total": 308
+    },
+    {
+      "domain": null,
+      "protocol": "UDP",
+      "destination_port": 9008,
+      "records": 2,
+      "destination_ips": [
+        "148.222.67.75"
+      ],
+      "bytes_sent_total": 91160,
+      "bytes_received_total": 70673
+    },
+    {
+      "domain": null,
+      "protocol": "UDP",
+      "destination_port": 10018,
+      "records": 1,
+      "destination_ips": [
+        "154.95.81.95"
+      ],
+      "bytes_sent_total": 36429,
+      "bytes_received_total": 72550
+    },
+    {
+      "domain": "api.vk.ru",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 55,
+      "bytes_received_total": 199
+    },
+    {
+      "domain": "api.vk.ru",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "93.186.225.205"
+      ],
+      "bytes_sent_total": 2008,
+      "bytes_received_total": 7465
+    },
+    {
+      "domain": "bdevent.ggpolarbear.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 138,
+      "bytes_received_total": 295
+    },
+    {
+      "domain": "bdevent.ggpolarbear.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 3,
+      "destination_ips": [
+        "202.81.106.109"
+      ],
+      "bytes_sent_total": 43141,
+      "bytes_received_total": 18880
+    },
+    {
+      "domain": "bdnetwork.ggpolarbear.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 142,
+      "bytes_received_total": 235
+    },
+    {
+      "domain": "bdnetwork.ggpolarbear.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "148.222.66.91"
+      ],
+      "bytes_sent_total": 2753,
+      "bytes_received_total": 4900
+    },
+    {
+      "domain": "cdn.wildflamestudio.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 138,
+      "bytes_received_total": 383
+    },
+    {
+      "domain": "cdn.wildflamestudio.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 2,
+      "destination_ips": [
+        "13.35.20.36"
+      ],
+      "bytes_sent_total": 7234,
+      "bytes_received_total": 1117753
+    },
+    {
+      "domain": "clientbp.ppmainecoonghj.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 146,
+      "bytes_received_total": 544
+    },
+    {
+      "domain": "clientbp.ppmainecoonghj.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 4,
+      "destination_ips": [
+        "148.222.66.5"
+      ],
+      "bytes_sent_total": 149493,
+      "bytes_received_total": 239684
+    },
+    {
+      "domain": "core-bs.ggpolarbear.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 138,
+      "bytes_received_total": 380
+    },
+    {
+      "domain": "core-bs.ggpolarbear.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "154.85.74.168"
+      ],
+      "bytes_sent_total": 1190,
+      "bytes_received_total": 19044
+    },
+    {
+      "domain": "csoversea.stronghold.freefiremobile.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 85,
+      "bytes_received_total": 229
+    },
+    {
+      "domain": "csoversea.stronghold.freefiremobile.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 2,
+      "destination_ips": [
+        "34.126.175.87",
+        "34.87.109.50"
+      ],
+      "bytes_sent_total": 27199,
+      "bytes_received_total": 5554
+    },
+    {
+      "domain": "dl-bs.ggpolarbear.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 134,
+      "bytes_received_total": 372
+    },
+    {
+      "domain": "dl-bs.ggpolarbear.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 7,
+      "destination_ips": [
+        "154.85.74.169"
+      ],
+      "bytes_sent_total": 145966,
+      "bytes_received_total": 24053841
+    },
+    {
+      "domain": "dl.castle.freefiremobile.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 148,
+      "bytes_received_total": 388
+    },
+    {
+      "domain": "dl.castle.freefiremobile.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 3,
+      "destination_ips": [
+        "2.19.212.44",
+        "2.19.212.53"
+      ],
+      "bytes_sent_total": 4396,
+      "bytes_received_total": 61615
+    },
+    {
+      "domain": "ff.dr.grtc.garenanow.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 140,
+      "bytes_received_total": 381
+    },
+    {
+      "domain": "ff.sdk.grtc.garenanow.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 71,
+      "bytes_received_total": 231
+    },
+    {
+      "domain": "ff.sdk.grtc.garenanow.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "148.222.66.252"
+      ],
+      "bytes_sent_total": 1556,
+      "bytes_received_total": 6733
+    },
+    {
+      "domain": "ff.sdk.grtc.garenanow.com",
+      "protocol": "TCP",
+      "destination_port": 6674,
+      "records": 2,
+      "destination_ips": [
+        "148.222.67.11"
+      ],
+      "bytes_sent_total": 970,
+      "bytes_received_total": 545
+    },
+    {
+      "domain": "ffmmsdk.ppmainecoonghj.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 72,
+      "bytes_received_total": 88
+    },
+    {
+      "domain": "ffmmsdk.ppmainecoonghj.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "3.6.245.111"
+      ],
+      "bytes_sent_total": 9160,
+      "bytes_received_total": 14327
+    },
+    {
+      "domain": "firebaselogging-pa.googleapis.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 79,
+      "bytes_received_total": 207
+    },
+    {
+      "domain": "firebaselogging-pa.googleapis.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "172.217.113.4"
+      ],
+      "bytes_sent_total": 2481,
+      "bytes_received_total": 4721
+    },
+    {
+      "domain": "firebaselogging.googleapis.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 76,
+      "bytes_received_total": 204
+    },
+    {
+      "domain": "firebaselogging.googleapis.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "172.217.115.4"
+      ],
+      "bytes_sent_total": 1910,
+      "bytes_received_total": 4928
+    },
+    {
+      "domain": "gin.wildflamestudio.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 3,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 207,
+      "bytes_received_total": 317
+    },
+    {
+      "domain": "gin.wildflamestudio.com",
+      "protocol": "HTTP",
+      "destination_port": 80,
+      "records": 2,
+      "destination_ips": [
+        "202.81.96.8"
+      ],
+      "bytes_sent_total": 1824,
+      "bytes_received_total": 811
+    },
+    {
+      "domain": "gin.wildflamestudio.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 2,
+      "destination_ips": [
+        "202.81.96.8"
+      ],
+      "bytes_sent_total": 2706,
+      "bytes_received_total": 9990
+    },
+    {
+      "domain": "graph.facebook.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 64,
+      "bytes_received_total": 104
+    },
+    {
+      "domain": "graph.facebook.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 2,
+      "destination_ips": [
+        "57.144.140.141"
+      ],
+      "bytes_sent_total": 4222,
+      "bytes_received_total": 14213
+    },
+    {
+      "domain": "loginbp.ppmainecoonghj.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 144,
+      "bytes_received_total": 382
+    },
+    {
+      "domain": "loginbp.ppmainecoonghj.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 2,
+      "destination_ips": [
+        "148.222.66.2"
+      ],
+      "bytes_sent_total": 3900,
+      "bytes_received_total": 11228
+    },
+    {
+      "domain": "rslw0r.inapps.appsflyersdk.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 76,
+      "bytes_received_total": 140
+    },
+    {
+      "domain": "rslw0r.inapps.appsflyersdk.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 2,
+      "destination_ips": [
+        "18.164.144.129"
+      ],
+      "bytes_sent_total": 8565,
+      "bytes_received_total": 12151
+    },
+    {
+      "domain": "rslw0r.launches.appsflyersdk.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 1,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 78,
+      "bytes_received_total": 142
+    },
+    {
+      "domain": "rslw0r.launches.appsflyersdk.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "54.192.151.5"
+      ],
+      "bytes_sent_total": 5607,
+      "bytes_received_total": 6466
+    },
+    {
+      "domain": "version.ggwhitehawk.com",
+      "protocol": "DNS",
+      "destination_port": 53,
+      "records": 2,
+      "destination_ips": [
+        "10.215.173.2"
+      ],
+      "bytes_sent_total": 138,
+      "bytes_received_total": 460
+    },
+    {
+      "domain": "version.ggwhitehawk.com",
+      "protocol": "HTTPS",
+      "destination_port": 443,
+      "records": 1,
+      "destination_ips": [
+        "202.81.119.2"
+      ],
+      "bytes_sent_total": 1565,
+      "bytes_received_total": 10055
+    }
+  ]
+}
